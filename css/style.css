@@ -1,0 +1,167 @@
+body{
+    font-family: 'Montserrat';
+}
+h1{
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+h2{
+    font-family: 'Montserrat';
+    line-height: 1.5;
+    font-weight: 900;
+}
+h3, h6{
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+p{
+    font-family: 'Ubuntu';
+    color: rgb(107, 107, 107);
+}
+/* ----------------------Navbar---------------------- */
+.navbar{
+    font-family: 'Ubuntu';
+}
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+
+/* ----------------------first plate---------------------- */
+#title-plate{
+    background-color: #F65A83;
+}
+#front-img{
+    width: 90%;
+}
+.container-fluid{
+    padding: 3% 10%;
+}
+.first-txt{
+    padding-top: 4rem;
+    color: white;
+}
+.download-btn{
+    margin: 2% 2% 0 0;
+}
+
+/* ----------------------second plate---------------------- */
+.second-plate{
+    padding: 3% 9%;
+    text-align: center;
+}
+.feature-box{
+    padding: 3%;
+}
+.feature-img{
+    width: 70%;
+    padding-bottom: 6%;
+}
+
+/* ----------------------third plate---------------------- */
+.third-plate{
+    padding: 3% 9%;
+    background-color: #F65A83;
+    color: white;
+    text-align: center;
+}
+.third-plate-intro{
+    padding: 3%;
+}
+.benifit:hover{
+    color: #f8bacb;
+    ;
+}
+.benifit-name{
+    padding: 5% 0;
+}
+
+/* ----------------------fourth plate---------------------- */
+.fourth-plate{
+    padding: 6% 9%;
+    text-align: center;
+}
+.fourth-plate-title{
+    padding-bottom: 5%;
+}
+.fourth-plate-content-box{
+    padding: 0 18%;
+}
+.fourth-plate-content{
+    font-weight: 400;
+}
+
+/* ----------------------fifth plate---------------------- */
+.fifth-plate{
+    padding: 3% 9%;
+    background-color: #F65A83;
+    color: white;
+    text-align: center;
+}
+.partner-img{
+    width: 20%;
+    margin: 1% 6%
+}
+
+/* ----------------------sixth plate---------------------- */
+.sixth-plate{
+    padding: 3% 9%;
+    text-align: center;
+}
+.plan-box{
+    padding-top: 3%;
+}
+.plan-price{
+    font-weight: bold;
+}
+
+/* ----------------------seventh plate---------------------- */
+.seventh-plate{
+    background-color: rgb(74, 72, 72);
+    text-align: center;
+    padding: 3% 9%;
+}
+.social-media{
+    padding: 2% 3% 0 3%;
+}
+.red{
+    color: #F65A83;
+}
+.red:hover{
+    color: #f33d6d;
+}
+
+/* ----------------------footer---------------------- */
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 1px;
+}
+
+/* ----------------------media queries---------------------- */
+@media (max-width:795px) {
+    #front-img{
+        width: 125%;
+    }
+}
+@media (max-width:768px) {
+    h1{
+        font-size: 2rem;
+    }
+    #front-img{
+        width: 90%;
+    }
+    .first-txt{
+        text-align: center;
+    }
+    
+    .fourth-plate-content{
+        font-size: 1rem;
+    }
+}

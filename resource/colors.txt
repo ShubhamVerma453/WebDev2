@@ -1,0 +1,5 @@
+red bg     -  F65A83
+blue text - 40DFEF
+
+red text   - AF0404
+black bg   -  414141
